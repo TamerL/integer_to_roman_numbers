@@ -27,13 +27,25 @@ describe 'integer_to_roman_numbers' do
       result = get_roman_num(50)
       expect(result).to eq("L")
     end
+    it "returns XC for 90" do
+      result = get_roman_num(90)
+      expect(result).to eq("XC")
+    end
     it "returns C for 100" do
       result = get_roman_num(100)
       expect(result).to eq("C")
     end
+    it "returns CDXC for 490" do
+      result = get_roman_num(490)
+      expect(result).to eq("CDXC")
+    end
     it "returns D for 500" do
       result = get_roman_num(500)
       expect(result).to eq("D")
+    end
+    it "returns CM for 900" do
+      result = get_roman_num(900)
+      expect(result).to eq("CM")
     end
     it "returns M for 1000" do
       result = get_roman_num(1000)
