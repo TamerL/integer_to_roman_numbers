@@ -16,7 +16,7 @@ def get_roman_num (num)
     x= num / key
     x.times do
       roman_numbers << value
-      num= num - key
+      num = num - key
     end
   end
   roman_numbers
