@@ -9,7 +9,7 @@ describe 'integer_to_roman_numbers' do
     end
     it "returns VI for 4" do
       result = get_roman_num(4)
-      expect(result).to eq("VI")
+      expect(result).to eq("IV")
     end
     it "returns V for 5" do
       result = get_roman_num(5)
@@ -17,7 +17,7 @@ describe 'integer_to_roman_numbers' do
     end
     it "returns XI for 9" do
       result = get_roman_num(9)
-      expect(result).to eq("XI")
+      expect(result).to eq("IX")
     end
     it "returns X for 10" do
       result = get_roman_num(10)
